@@ -6,9 +6,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    
     <link rel="stylesheet" href="/css/app.css">
-    <title>Altamarc</title>
+    <title>Laravek 7 - React</title>
 </head>
 <body>
 

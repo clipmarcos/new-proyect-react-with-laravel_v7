@@ -1,6 +1,6 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<p align="center"><img src="https://dradtech.com/uploads/blog/blog_1535357357.png" width="400"></p>
 
-<p align="center"><img src="https://lh3.googleusercontent.com/proxy/ghep5QBdAEJ7Q0IlpjRoMkScMjvMxZDsT4unq2bydsFBgmHIQFG_bF9Iw_WBlsz9Sj_KMyq_T2TOR0xkAETJWlpLqC9j" width="200"></p>
+
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -11,5 +11,21 @@
 
 ## New-proyect-react-with-laravel_v7
 
-Start project with laravel v7 with react included and laravel passport authentication
+Start project with laravel v7 and react, included laravel passport authentication
+
+
+```
+* composer install
+ 
+* php artisan migrate
+ 
+* php artisan passport:install
+ 
+* npm install
+ 
+* npm run watch
+ 
+* php artisan serve
+ 
+ ```
 
