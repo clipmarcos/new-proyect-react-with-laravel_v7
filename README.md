@@ -11,5 +11,5 @@
 
 ## New-proyect-react-with-laravel_v7
 
-Start project with laravel v7 with react included and laravel passport authentication
+Start project with laravel v7 and react, included laravel passport authentication
 
