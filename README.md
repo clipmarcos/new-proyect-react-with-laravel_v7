@@ -13,3 +13,19 @@
 
 Start project with laravel v7 and react, included laravel passport authentication
 
+
+```
+* composer install
+ 
+* php artisan migrate
+ 
+* php artisan passport:install
+ 
+* npm install
+ 
+* npm run watch
+ 
+* php artisan serve
+ 
+ ```
+
