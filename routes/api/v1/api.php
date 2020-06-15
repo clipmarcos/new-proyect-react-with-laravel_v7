@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('/auth')->group( function() {
     Route::post('login', 'api\v1\loginController@setLogin');
-
+    Route::get('logout', 'api\v1\loginController@getLogoutAll');
 });
 
 Route::prefix('/user')->group( function() {
@@ -15,7 +15,7 @@ Route::prefix('/user')->group( function() {
   Route::group([
     'middleware' => 'auth:api'
   ], function() {
-      Route::get('logout', 'api\v1\loginController@getLogoutAll');
+      
       Route::get('list', 'api\v1\user\UserController@getList');
       Route::post('register', 'api\v1\user\UserController@setRegister');
      
