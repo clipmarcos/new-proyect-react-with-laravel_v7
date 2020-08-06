@@ -24,6 +24,8 @@ Start project with laravel v7 and react, included laravel passport authenticatio
 * npm install
  
 * npm run watch
+
+* php artisan key:generate
  
 * php artisan serve
  
