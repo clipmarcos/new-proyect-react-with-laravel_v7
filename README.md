@@ -26,6 +26,8 @@ Start project with laravel v7 and react, included laravel passport authenticatio
 * npm run watch
 
 * php artisan key:generate
+
+* php artisan db:seed --class=UserSeeder
  
 * php artisan serve
  
